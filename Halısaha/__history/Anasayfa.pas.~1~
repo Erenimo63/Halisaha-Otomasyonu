@@ -1,0 +1,36 @@
+unit Anasayfa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Button1: TButton;
+    Image1: TImage;
+    Label1: TLabel;
+    Button2: TButton;
+    Image2: TImage;
+    Label2: TLabel;
+    Button3: TButton;
+    Image3: TImage;
+    Label3: TLabel;
+    Button4: TButton;
+    Image4: TImage;
+    Label4: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.

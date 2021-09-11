@@ -1,0 +1,54 @@
+unit Kayit;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Data.Win.ADODB,
+  Vcl.ExtCtrls, Vcl.DBCtrls, Vcl.Mask;
+
+type
+  TForm4 = class(TForm)
+    editsoyadi: TEdit;
+    editkullanici: TEdit;
+    editsifre: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    editmevki: TEdit;
+    edittelefon: TEdit;
+    ADOConnection1: TADOConnection;
+    ADOQuery1: TADOQuery;
+    DataSource1: TDataSource;
+    DBEdit1: TDBEdit;
+    DBNavigator1: TDBNavigator;
+    ADOQuery1adi: TMemoField;
+    ADOQuery1soyadi: TMemoField;
+    ADOQuery1mevki: TMemoField;
+    ADOQuery1kullanici_adi: TMemoField;
+    ADOQuery1sifre: TMemoField;
+    ADOQuery1telefon: TMemoField;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+uses giris;
+procedure TForm4.Button1Click(Sender: TObject);
+begin
+Form1.Show;
+Form4.Hide;
+end;
+
+end.

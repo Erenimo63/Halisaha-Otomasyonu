@@ -1,0 +1,123 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 294
+  ClientWidth = 387
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 104
+    Top = 8
+    Width = 105
+    Height = 105
+  end
+  object Label1: TLabel
+    Left = 232
+    Top = 56
+    Width = 92
+    Height = 13
+    Caption = 'M'#252#351'teri '#304#351'leri Resmi'
+  end
+  object Label2: TLabel
+    Left = 112
+    Top = 125
+    Width = 15
+    Height = 13
+    Caption = 'Ad'#305
+  end
+  object Label3: TLabel
+    Left = 260
+    Top = 125
+    Width = 32
+    Height = 13
+    Caption = 'Soyad'#305
+  end
+  object Label4: TLabel
+    Left = 104
+    Top = 189
+    Width = 36
+    Height = 13
+    Caption = 'Telefon'
+  end
+  object Label5: TLabel
+    Left = 256
+    Top = 189
+    Width = 37
+    Height = 13
+    Caption = 'E-Posta'
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Top = 256
+    Width = 387
+    Height = 38
+    DataSource = DataSource1
+    Align = alBottom
+    TabOrder = 0
+  end
+  object DBEdit1: TDBEdit
+    Left = 64
+    Top = 144
+    Width = 121
+    Height = 21
+    DataSource = DataSource1
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 216
+    Top = 144
+    Width = 121
+    Height = 21
+    DataSource = DataSource1
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 64
+    Top = 208
+    Width = 121
+    Height = 21
+    DataSource = DataSource1
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 216
+    Top = 208
+    Width = 121
+    Height = 21
+    DataSource = DataSource1
+    TabOrder = 4
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security In' +
+      'fo=False;Initial Catalog=Hal'#305'saha;Data Source=DESKTOP-BTOE406'
+    LoginPrompt = False
+    Provider = 'SQLOLEDB.1'
+    Left = 32
+    Top = 40
+  end
+  object ADOQuery1: TADOQuery
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from musteri')
+    Left = 24
+    Top = 112
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 328
+    Top = 88
+  end
+end

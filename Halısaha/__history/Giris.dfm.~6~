@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Giri'#351
+  ClientHeight = 325
+  ClientWidth = 495
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 144
+    Top = 195
+    Width = 55
+    Height = 13
+    Caption = 'Kullan'#305'c'#305' Ad'#305
+  end
+  object Label2: TLabel
+    Left = 144
+    Top = 235
+    Width = 22
+    Height = 13
+    Caption = #350'ifre'
+  end
+  object Image1: TImage
+    Left = 192
+    Top = 24
+    Width = 105
+    Height = 105
+  end
+  object label3: TLabel
+    Left = 328
+    Top = 72
+    Width = 62
+    Height = 13
+    Caption = 'Hal'#305'saha '#304'smi'
+  end
+  object editkullanici: TEdit
+    Left = 216
+    Top = 192
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object editsifre: TEdit
+    Left = 216
+    Top = 232
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object btngiris: TButton
+    Left = 144
+    Top = 259
+    Width = 89
+    Height = 25
+    Caption = 'Giri'#351
+    TabOrder = 2
+    OnClick = btngirisClick
+  end
+  object Button1: TButton
+    Left = 248
+    Top = 259
+    Width = 89
+    Height = 25
+    Caption = 'Kay'#305't Ol'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 196
+    Top = 292
+    Width = 89
+    Height = 25
+    Caption = #199#305'k'#305#351
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security In' +
+      'fo=False;Initial Catalog=Hal'#305'saha;Data Source=DESKTOP-BTOE406'
+    LoginPrompt = False
+    Provider = 'SQLOLEDB.1'
+    Left = 64
+    Top = 80
+  end
+  object Sorgu: TADOQuery
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'Select * from kullanici')
+    Left = 64
+    Top = 184
+  end
+end

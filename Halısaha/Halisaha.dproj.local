@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit4.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Kayit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit4.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Kayit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.658,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.227,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Giris.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit5.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Müsteri.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.913,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Anasayfa.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.227,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Giris.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.522,C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Ücret.dfm=C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Ucret.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Rezervasyon.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.717,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit2.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.946,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.522,C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Ücret.pas=C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Ucret.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit1.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.717,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit2.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.673,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit3.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.750,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Müsteri.dfm=C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Musteri.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.712,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.489,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit6.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Admin.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.179,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.505,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit7.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Ücret.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Halisaha.dproj=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit1.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.673,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit3.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.489,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit6.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Admin.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.913,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Anasayfa.dfm=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.505,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit7.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Ücret.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit5.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Müsteri.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.177,=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Rezervasyon.pas=C:\Users\90507\Documents\Embarcadero\Studio\Projects\Buket Ödev\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.152,C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Müsteri.pas=C:\Users\90507\Desktop\Buket Ödev\Delphi\Halısaha\Musteri.pas</Transaction>
+  </Transactions>
+</BorlandProject>
